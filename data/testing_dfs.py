@@ -14,5 +14,5 @@ df = pd.DataFrame(
 
 series1 = pd.Series([12, 34, 56], name="Age")
 
-
+# print("works")
 print(df["Age"].describe())
