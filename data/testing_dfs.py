@@ -12,7 +12,18 @@ df = pd.DataFrame(
     }
 )
 
+df2 = pd.DataFrame(
+    {
+        "Name": ["Jamel Temetrius Morant", "Jaren Jackson Jr.", "Jeffrey Williams"],
+        "Age": [24, 25, 30],
+        "Occupation": ["Hooper", "Hooper", "Rapper"],
+    }
+)
+
 series1 = pd.Series([12, 34, 56], name="Age")
 
 # print("works")
-print(df["Age"].describe())
+
+# print(df["Age"].describe())
+
+print(df2.describe())
