@@ -11,6 +11,5 @@ df = pd.read_html(url, header=0)
 
 # def save_data():
 #     pass
-
-for x in df:
-    print(x)
+print(len(df))
+df[0].to_csv("tatum2023.csv")
