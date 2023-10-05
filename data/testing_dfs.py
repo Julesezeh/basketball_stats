@@ -27,3 +27,4 @@ series1 = pd.Series([12, 34, 56], name="Age")
 # print(df["Age"].describe())
 
 print(df2.describe())
+# still taking course on ds
